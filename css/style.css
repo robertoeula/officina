@@ -1,0 +1,140 @@
+/* FONT RONZINO */
+@font-face {
+  font-family: "Ronzino";
+  src: url("../fonts/Ronzino-Regular.woff") format("woff");
+}
+
+/* Base */
+body {
+  margin: 0;
+  background: #CCCCCC;
+  font-family: "Ronzino", serif;
+  font-size: 20px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Firma in alto a sinistra */
+.signature {
+  margin-top: 60px;
+  margin-left: 120px;
+  font-size: 16px;
+  color: #666666;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  left: 120px;
+
+  /* rapporto circa 1:2 tra sinistra e basso */
+  bottom: 240px;
+
+  display: flex;
+  flex-direction: column;
+
+  /* più distanza verticale tra le voci */
+  gap: 60px;
+}
+
+/* Link sidebar */
+.nav-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+/* Pagina attiva */
+.nav-link.active {
+  font-weight: bold;
+}
+
+/* Contenuto centrale */
+.content {
+  flex: 1;
+
+  margin-left: 360px;
+  margin-right: 140px;
+  padding-top: 140px;
+}
+
+/* Titoli */
+h1 {
+  font-size: 32px;
+  font-weight: normal; /* niente bold */
+  margin-bottom: 24px;
+}
+
+/* Testo piccolo in basso a destra */
+.footer-note {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-right: 120px;
+
+  font-size: 12px;
+  text-align: right;
+  color: #666666;
+}
+
+.footer-note a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+
+/* =========================
+   VERSIONE MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* Firma */
+.signature {
+  margin-top: 24px;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+  /* Sidebar diventa menu orizzontale */
+  .sidebar {
+  position: static;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+
+  flex-direction: row;
+  gap: 24px;
+}
+
+  /* Link menu */
+  .nav-link {
+    font-size: 14px;
+  }
+
+  /* Contenuto centrale */
+  .content {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 140px;
+    max-width: none;
+  }
+
+  /* Titoli */
+  h1 {
+    font-size: 26px;
+  }
+
+  /* Footer note */
+  .footer-note {
+  margin: 60px 24px 24px 24px;
+  font-size: 11px;
+  text-align: right;
+
+  white-space: normal;
+  word-break: keep-all;
+}
+}
+ /* Rendere presentabili i file di codice, cambiando giusto i titoli (si scrivono così i commenti in html o css??) */
