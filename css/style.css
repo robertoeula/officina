@@ -1,82 +1,105 @@
-/* FONT RONZINO */
+/* VARIABILI */
+:root {
+  /* Colori */
+  --color-bg: #CCCCCC;
+  --color-text: #000000;
+  --color-muted: #666666;
+
+  /* Font */
+  --font-main: "Ronzino", serif;
+
+  /* Spaziature */
+  --spacing-xs: 0.5rem;    /* 8px */
+  --spacing-sm: 1rem;      /* 16px */
+  --spacing-md: 1.5rem;    /* 24px */
+  --spacing-lg: 3.75rem;   /* 60px */
+  --spacing-xl: 7.5rem;    /* 120px */
+}
+
+/* FONT */
 @font-face {
   font-family: "Ronzino";
   src: url("../fonts/Ronzino-Regular.woff") format("woff");
 }
 
-/* Base */
+/* BASE */
 body {
   margin: 0;
-  background: #CCCCCC;
-  font-family: "Ronzino", serif;
-  font-size: 20px;
+  background: var(--color-bg);
+  font-family: var(--font-main);
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.6;
 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Firma in alto a sinistra */
+/* FIRMA */
 .signature {
-  margin-top: 60px;
-  margin-left: 120px;
-  font-size: 16px;
-  color: #666666;
+  margin-top: var(--spacing-lg);
+  margin-left: var(--spacing-xl);
+  font-size: 1rem; /* 16px */
+  color: var(--color-muted);
 }
 
-/* Sidebar */
+/* SIDEBAR */
 .sidebar {
   position: fixed;
-  left: 120px;
-
-  /* rapporto circa 1:2 tra sinistra e basso */
-  bottom: 240px;
+  left: var(--spacing-xl);
+  bottom: 15rem; /* 240px */
 
   display: flex;
   flex-direction: column;
-
-  /* più distanza verticale tra le voci */
-  gap: 60px;
+  gap: var(--spacing-lg);
 }
 
-/* Link sidebar */
 .nav-link {
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   text-decoration: none;
-  color: black;
+  color: var(--color-text);
   font-weight: normal;
+  transition: color 0.2s, transform 0.2s;
 }
 
-/* Pagina attiva */
+.nav-link:hover {
+  color: var(--color-muted);
+  /* transform: translateX(4px); */
+}
+
 .nav-link.active {
   font-weight: bold;
 }
 
-/* Contenuto centrale */
-.content {
-  flex: 1;
-
-  margin-left: 360px;
-  margin-right: 140px;
-  padding-top: 140px;
-}
+/* CONTENUTO PRINCIPALE */
 
 /* Titoli */
 h1 {
-  font-size: 32px;
-  font-weight: normal; /* niente bold */
-  margin-bottom: 24px;
+  font-size: 2rem; /* 32px */
+  font-weight: normal;
+  margin-bottom: 1.5rem; /* 24px */
 }
 
-/* Testo piccolo in basso a destra */
-.footer-note {
-  margin-top: 80px;
-  margin-bottom: 60px;
-  margin-right: 120px;
+/* Testi */
+.content {
+  flex: 1;
+  margin-left: 22.5rem;  /* 360px */
+  margin-right: 8.75rem; /* 140px */
+  padding-top: 8.75rem;  /* 140px */
+}
 
-  font-size: 12px;
+/* .content p {
+  max-width: 700px;
+} */
+
+/* FOOTER */
+.footer-note {
+  margin-top: 5rem;      /* 80px */
+  margin-bottom: 3.75rem;/* 60px */
+  margin-right: var(--spacing-xl);
+  font-size: 0.75rem;    /* 12px */
   text-align: right;
-  color: #666666;
+  color: var(--color-muted);
 }
 
 .footer-note a {
@@ -84,57 +107,42 @@ h1 {
   text-decoration: underline;
 }
 
-
-/* =========================
-   VERSIONE MOBILE
-   ========================= */
+/* !!! VERSIONE MOBILE */
 
 @media (max-width: 768px) {
 
-  /* Firma */
-.signature {
-  margin-top: 24px;
-  margin-left: 24px;
-  font-size: 14px;
-}
-
-  /* Sidebar diventa menu orizzontale */
-  .sidebar {
-  position: static;
-  margin-top: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
-
-  flex-direction: row;
-  gap: 24px;
-}
-
-  /* Link menu */
-  .nav-link {
-    font-size: 14px;
+  .signature {
+    margin-top: 1.5rem;  /* 24px */
+    margin-left: 1.5rem;
+    font-size: 0.875rem; /* 14px */
   }
 
-  /* Contenuto centrale */
+  .sidebar {
+    position: static;
+    margin: 1.5rem;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.875rem; /* 14px */
+  }
+
   .content {
-    margin-left: 24px;
-    margin-right: 24px;
-    padding-top: 140px;
+    margin: 0 1.5rem;
+    padding-top: 8.75rem; /* 140px */
     max-width: none;
   }
 
-  /* Titoli */
   h1 {
-    font-size: 26px;
+    font-size: 1.625rem; /* 26px */
   }
 
-  /* Footer note */
   .footer-note {
-  margin: 60px 24px 24px 24px;
-  font-size: 11px;
-  text-align: right;
-
-  white-space: normal;
-  word-break: keep-all;
+    margin: 3.75rem 1.5rem 1.5rem 1.5rem; /* 60px 24px 24px 24px */
+    font-size: 0.6875rem; /* 11px */
+    text-align: right;
+    white-space: normal;
+    word-break: keep-all;
+  }
 }
-}
- /* Rendere presentabili i file di codice, cambiando giusto i titoli (si scrivono così i commenti in html o css??) */
