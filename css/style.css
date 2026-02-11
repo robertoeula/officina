@@ -6,7 +6,7 @@
   --color-muted: #666666;
 
   /* Font */
-  --font-main: "Ronzino", serif;
+  --font-main: "Ronzino", sans-serif;
 
   /* Spaziature */
   --spacing-xs: 0.5rem;    /* 8px */
@@ -18,9 +18,14 @@
 
 /* FONT */
 @font-face {
-  font-family: "Ronzino";
-  src: url("../fonts/Ronzino-Regular.woff") format("woff");
+  font-family: "Ronzino", sans-serif;
+  src: url("../fonts/Ronzino-Regular.woff2") format("woff2");
 }
+
+body {
+ font-family: "Ronzino", sans-serif;
+}
+
 
 /* BASE */
 body {
