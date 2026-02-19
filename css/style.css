@@ -19,8 +19,8 @@
 /* FONT */
 @font-face {
   font-family: "Ronzino";
-  src: url("../fonts/Ronzino-Regular.woff2") format("woff2"),
-       url("../fonts/Ronzino-Regular.woff") format("woff");
+  src: url("/officina/fonts/Ronzino-Regular.woff2") format("woff2"),
+       url("/officina/fonts/Ronzino-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
