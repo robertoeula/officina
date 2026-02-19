@@ -18,14 +18,17 @@
 
 /* FONT */
 @font-face {
-  font-family: "Ronzino", sans-serif;
-  src: url("../fonts/Ronzino-Regular.woff2") format("woff2");
+  font-family: "Ronzino";
+  src: url("../fonts/Ronzino-Regular.woff2") format("woff2"),
+       url("../fonts/Ronzino-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
- font-family: "Ronzino", sans-serif;
+  font-family: "Ronzino", sans-serif;
 }
-
 
 /* BASE */
 body {
