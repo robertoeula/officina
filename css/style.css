@@ -1,7 +1,7 @@
 /* VARIABLES */
 :root {
   /* Colors */
-  --color-bg: #C3ACCE;
+  --color-bg: #c3acce;
   --color-text: #000000;
   --color-muted: #5f4e66;
 
@@ -49,9 +49,9 @@ body {
 
 /* Highlighting */
 .soft-highlight {
-  background-color: #5f4e66;
-  padding: 0.1em 0.3em;
-  border-radius: 3px;
+  background-color: #d9c4e2;
+  padding: 0.05em 0.1em;
+  border-radius: 0px;
 }
 
 strong {
@@ -95,7 +95,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: bold;
   margin-top: 3rem;
   margin-bottom: 1rem;
