@@ -1,14 +1,14 @@
-/* VARIABILI */
+/* VARIABLES */
 :root {
-  /* Colori */
+  /* Colors */
   --color-bg: #C3ACCE;
   --color-text: #000000;
   --color-muted: #5f4e66;
 
-  /* Font */
+  /* Typography */
   --font-main: "Ronzino", sans-serif;
 
-  /* Spaziature */
+  /* Spacing */
   --spacing-xs: 0.5rem;    /* 8px */
   --spacing-sm: 1rem;      /* 16px */
   --spacing-md: 1.5rem;    /* 24px */
@@ -16,13 +16,30 @@
   --spacing-xl: 7.5rem;    /* 120px */
 }
 
-/* FONT */
+/* TYPOGRAPHY */
 @font-face {
   font-family: "Ronzino";
-  src: url("/officina/fonts/Ronzino-Regular.woff2") format("woff2"),
-       url("/officina/fonts/Ronzino-Regular.woff") format("woff");
-  font-weight: normal;
+  src: url("/officina/fonts/Ronzino-Regular.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Ronzino";
+  src: url("/officina/fonts/Ronzino-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Oblique */
+@font-face {
+  font-family: "Ronzino";
+  src: url("/officina/fonts/Ronzino-Oblique.woff2") format("woff2");
+  font-weight: 400;
+  font-style: oblique;
   font-display: swap;
 }
 
@@ -30,7 +47,22 @@ body {
   font-family: "Ronzino", sans-serif;
 }
 
-/* BASE */
+/* Highlighting */
+.soft-highlight {
+  background-color: #5f4e66;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+strong {
+  font-weight: 700; /* Bold texts, <b> alternative */
+}
+
+em {
+  font-style: oblique; /* Oblique texts, <i> alternative */
+}
+
+/* BASE STYLES */
 body {
   margin: 0;
   background: var(--color-bg);
@@ -43,7 +75,45 @@ body {
   min-height: 100vh;
 }
 
-/* FIRMA */
+/* Links */
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-muted);
+}
+
+/* MAIN CONTENT */
+
+/* Headings */
+h1 {
+  font-size: 2rem; /* 32px */
+  font-weight: normal;
+  margin-bottom: 1.5rem; /* 24px */
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Text Content */
+.content {
+  flex: 1;
+  margin-left: 22.5rem;  /* 360px */
+  margin-right: 8.75rem; /* 140px */
+  padding-top: 8.75rem;  /* 140px */
+}
+
+/* .content p {
+  max-width: 700px;
+} */
+
+/* SIGNATURE */
 .signature {
   margin-top: var(--spacing-lg);
   margin-left: var(--spacing-xl);
@@ -72,33 +142,8 @@ body {
 
 .nav-link:hover {
   color: var(--color-muted);
-  /* transform: translateX(4px); */
+  transform: translateX(2px);
 }
-
-.nav-link.active {
-  font-weight: bold;
-}
-
-/* CONTENUTO PRINCIPALE */
-
-/* Titoli */
-h1 {
-  font-size: 2rem; /* 32px */
-  font-weight: normal;
-  margin-bottom: 1.5rem; /* 24px */
-}
-
-/* Testi */
-.content {
-  flex: 1;
-  margin-left: 22.5rem;  /* 360px */
-  margin-right: 8.75rem; /* 140px */
-  padding-top: 8.75rem;  /* 140px */
-}
-
-/* .content p {
-  max-width: 700px;
-} */
 
 /* FOOTER */
 .footer-note {
@@ -115,7 +160,11 @@ h1 {
   text-decoration: underline;
 }
 
-/* !!! VERSIONE MOBILE */
+.nav-link.active {
+  font-weight: bold;
+}
+
+/* MOBILE VERSION */
 
 @media (max-width: 768px) {
 
