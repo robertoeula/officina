@@ -1,8 +1,8 @@
 # Officina
 <img width="1280" height="640" alt="repository-open-graph-template" src="https://github.com/user-attachments/assets/2a03a092-6479-450e-81fe-edea6804d697" />
-Final images and translated README texts coming soon.
+Final images and translated README file coming soon.
 
-## About the site
+## About the website
 All texts are written in my mother tongue: Italian... Questo testo per spiegare perché ho creato Officina
 
 ### Process
