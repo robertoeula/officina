@@ -1,26 +1,20 @@
 # Officina
-<img width="1280" height="640" alt="repository-open-graph-template" src="https://github.com/user-attachments/assets/2a03a092-6479-450e-81fe-edea6804d697" />
+![LogoOfficina(1)](https://github.com/user-attachments/assets/071df9a6-709c-42a2-8dc6-1b586b18067c)
 Final images and translated README file coming soon.
 
-## About the website
+## About the project
 All texts are written in my mother tongue: Italian... Questo testo per spiegare perché ho creato Officina
 
 ### Process
 E come ha preso vita, magari mettendo il link di Figma...
-
-#### Inspirations
-Immagini? Riferimenti di altri siti?
 
 ### Prompts
 In ordine cronologico, seguono sono i prompt che ho utilizzato.
 ...
 Alcuni prompt potrebbero differire dagli originali per sintassi e punteggiatura. La lunghezza e il senso dei testi sono rimasti invariati.
 
-### Consultation guide
-Futura guida alla consultazione del sito.
-
 ## Repository description
-Spiegazione dei file all'interno della repo.
+Spiegazione dei file all'interno della repo. Anche due parole finali su quello che ho imparato e capito attraverso il progetto (VS Code, GitHub...)
 
 ## Contribution
 Officina è un progetto personale ma sempre aperto a contributi e suggerimenti. In particolare sono sempre alla ricerca di:
