@@ -1,9 +1,9 @@
 /* VARIABLES */
 :root {
   /* Colors */
-  --color-bg: #c3acce;
-  --color-text: #000000;
-  --color-muted: #5f4e66;
+  --color-bg: #C3ACCE;
+  --color-text: #2B1F33;
+  --color-muted: #6B5973;
 
   /* Typography */
   --font-main: "Ronzino", sans-serif;
@@ -49,7 +49,7 @@ body {
 
 /* Highlighting */
 .soft-highlight {
-  background-color: #d9c4e2;
+  background-color: #E1D5E6;
   padding: 0.05em 0.1em;
   border-radius: 0px;
 }
