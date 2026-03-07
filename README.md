@@ -1,5 +1,5 @@
 # Officina
-![LogoOfficina(1)](https://github.com/user-attachments/assets/071df9a6-709c-42a2-8dc6-1b586b18067c)
+![LogoOfficina(2)](https://github.com/user-attachments/assets/dcb0ac92-32c7-449a-a34b-e24c36874828)
 Final images and translated README file coming soon.
 
 ## About the project
