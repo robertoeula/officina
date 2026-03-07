@@ -6,7 +6,7 @@ Final images and translated README file coming soon.
 All texts are written in my mother tongue: Italian... Questo testo per spiegare perché ho creato Officina
 
 ### Process
-E come ha preso vita, magari mettendo il link di Figma...
+E come ha preso vita, magari mettendo il link di Figma (https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1)...
 
 ### Prompts
 In ordine cronologico, seguono sono i prompt che ho utilizzato.
