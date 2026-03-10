@@ -11,12 +11,12 @@ Long story short, in January 2026 I finally made it, its name is inspired by my 
 
 ### Process
 <img width="2220" height="1120" alt="FigmaFile(1)" src="https://github.com/user-attachments/assets/8aba9918-3bb8-486e-8d34-3245fbe3415f" />
+([Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1))
 
-<br />
+#### Figma
+Come ha preso vita in Figma
 
-E come ha preso vita, magari mettendo il link di Figma ([Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1))...
-
-### Prompts
+#### Prompts
 In ordine cronologico, seguono sono i prompt che ho utilizzato.
 ...
 Alcuni prompt potrebbero differire dagli originali per sintassi e punteggiatura. La lunghezza e il senso dei testi sono rimasti invariati.
