@@ -3,9 +3,11 @@
 Final images and translated README file coming soon.
 
 ## About the project
-All texts are written in my mother tongue: Italian... Questo testo per spiegare perché ho creato Officina
+First of all, I would like to mention that I try to keep all my written words AI free, since it is exactly the time I put (inefficiently) into writing the purpose of this project. The whole texts in the website are written in my mother tongue: Italian.
+There are many reasons for this digital space. I can't even remenber how many times I though about building a website at uni, mainly to showcase my design works. Long story short, now its name is inspired by my working space (Officina means workshop or even garage in Italian) but 
 
 ### Process
+<img width="3000" height="2000" alt="Export 3_2" src="https://github.com/user-attachments/assets/2a324cf0-2935-41ae-b50a-803eb41cdcaa" />
 E come ha preso vita, magari mettendo il link di Figma ([Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1))...
 
 ### Prompts
