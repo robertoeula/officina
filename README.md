@@ -1,22 +1,14 @@
 # Officina
-![LogoOfficina(2)](https://github.com/user-attachments/assets/dcb0ac92-32c7-449a-a34b-e24c36874828)
-Final images and translated README file coming soon.
+[Officina project cover](LogoOfficina(3).jpg)
 
 ## About the project
-First of all, I would like to mention that I try to keep all my writing AI free, since it is exactly the time I put (inefficiently) into writing the purpose of this project. The whole texts in the website are written in my mother tongue: Italian.
-<br />
-There are many reasons behind this digital space. I can't remenber how many times I though about building a website at uni, mainly to showcase my design works. Probably I just needed tools as accessible as LLMs.
-<br />
-Long story short, in January 2026 I finally made it, its name is inspired by my working space ("Officina" means "workshop" or "garage" in Italian) but the idea was fueled, for unclear reasons, by the reading of *What Design Can't Do* by Silvio Lorusso.
+First of all, I would like to mention that I try to keep all my written words AI free, since it is exactly the time I put (inefficiently) into writing the purpose of this project. The whole texts in the website are written in my mother tongue: Italian.
+There are many reasons for this digital space. I can't even remenber how many times I though about building a website at uni, mainly to showcase my design works. Long story short, now its name is inspired by my working space ("Officina" means "workshop" or "garage" in Italian) but the idea was fueled, for not immediately understandable reasons, by the reading of *What Design Can't Do* by Silvio Lorusso.
 
 ### Process
-<img width="2220" height="1120" alt="FigmaFile(1)" src="https://github.com/user-attachments/assets/8aba9918-3bb8-486e-8d34-3245fbe3415f" />
-([Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1))
+[Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1)...
 
-#### Figma
-Come ha preso vita in Figma
-
-#### Prompts
+### Prompts
 In ordine cronologico, seguono sono i prompt che ho utilizzato.
 ...
 Alcuni prompt potrebbero differire dagli originali per sintassi e punteggiatura. La lunghezza e il senso dei testi sono rimasti invariati.
