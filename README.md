@@ -1,22 +1,30 @@
 # Officina
-[Officina project cover](LogoOfficina(3).jpg)
+<a href="./images/logo.jpg"><img src="./images/logo.jpg" width="100%" /></a>
 
 ## About the project
-First of all, I would like to mention that I try to keep all my written words AI free, since it is exactly the time I put (inefficiently) into writing the purpose of this project. The whole texts in the website are written in my mother tongue: Italian.
-There are many reasons for this digital space. I can't even remenber how many times I though about building a website at uni, mainly to showcase my design works. Long story short, now its name is inspired by my working space ("Officina" means "workshop" or "garage" in Italian) but the idea was fueled, for not immediately understandable reasons, by the reading of *What Design Can't Do* by Silvio Lorusso.
+First of all, I would like to mention that I try to keep all my written words AI-free, since it is exactly the time I put (inefficiently) into writing that represents the purpose of this project. The texts on the website are written in my mother tongue: Italian. <br />
+There are many reasons for this digital space. I can't even remember how many times I thought about building a website at uni, mainly to showcase my design work. Long story short, its name is now inspired by my working space ("Officina" means "workshop" or "garage" in Italian), but the idea was fueled, for not immediately understandable reasons, by reading *What Design Can't Do* by Silvio Lorusso.
 
 ### Process
-[Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1)
 
 #### Figma
-Immediately after the first prompt asking information about buildign a website, I realised I couldn't understand properly future AI inputs regarding layout and spacing for Officina without understanding personally how the website would have looked like.
+
+[Figma project file](https://www.figma.com/design/QqO4yjAiyHMJTzyarqYoFv/Personal-projects?node-id=0-1&t=0N4SGpm9e4wGI0Ez-1)
+
+Immediately after the first prompt asking for information about building a website, I realised I couldn't properly understand future AI inputs regarding layout and spacing for Officina without personally understanding how the website would look. <br />
+My intention was to keep everything as simple as possible to give full attention to the content. Once the layout and some details were defined, I used Figma to go back and forth with VS Code. Many adjustments and decisions were made directly by looking at CSS and Live Server, but I am confident that I kept the design intention very close to the original Figma file.
 
 #### Prompts
-I think it is important to share some of the prompts I used to make my process more clear and replicable. 
 
-<br />
+I think it is important to share some of the prompts I used to make my process clearer and replicable. I used as my only AI tool the one and only ChatGPT in its free version (GPT-5.3). <br />
 
-> <br />*Please dear ChatGPT blah blah blah*<br /><br />
+At the beginning, I asked some general questions to better understand what was necessary before even starting to ask for the code. <br />
+
+> <br />*I would like to start programming a website together, but first of all I would like to know about platforms or portals where I could publish this site, or the programs I should use to paste the code and review it. So beyond the fact that I need to write code, I would like to understand what ecosystem I should work within. I have a Windows laptop.* <br /><br />
+
+I gave ChatGPT some references of simple and personal websites and...<br />
+
+> <br />*Vorrei iniziare a programmare un sito insieme, ma prima di tutto vorrei conoscere delle piattaforme o dei portali su cui io potrei pubblicare questo sito, oppure i programmi che dovrei utilizzare e incollare il codice e revisionarlo. Quindi al di là del fatto che devo scrivere codice, vorrei sapere un attimo con che ecosistema devo muovermi. Ho un portatile Windows.*<br /><br />
 
 Alcuni prompt potrebbero differire dagli originali per sintassi e punteggiatura. La lunghezza e il senso dei testi sono rimasti invariati.
 
