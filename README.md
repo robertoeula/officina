@@ -1,11 +1,37 @@
 # Officina
+
+### Contents
+
+- [About the project](#about-the-project)
+- [Behind the design](#behind-the-design)
+- [Questions & Feedback / Contribution](#questions--feedback--contribution)
+- [License](#license)
+<br />
+<br />
+
 <a href="./images/logo.jpg"><img src="./images/logo.jpg" width="100%" /></a>
 
 ## About the project
-First of all, I would like to mention that I try to keep all my written words AI-free, since it is exactly the time I put (inefficiently) into writing that represents the purpose of this project. The texts on the website are written in my mother tongue: Italian. <br />
-There are many reasons for this digital space. I can't even remember how many times I thought about building a website at uni, mainly to showcase my design work. Long story short, its name is now inspired by my working space ("Officina" means "workshop" or "garage" in Italian), but the idea was fueled, for not immediately understandable reasons, by reading *What Design Can't Do* by Silvio Lorusso.
 
-## The design for the website
+WHO: My name is Roberto and I define myself as a designer, whatever this work could mean to the reader. <br />
+WHAT: Officina is a personal research project, a digital space documenting the analog time I spend reading and learning about everything behind design practice, from philosophy and design history to contemporary challenges for design as a profession or hobby. Its name is inspired by my working space ("Officina" means "workshop" or "garage" in Italian), but the idea was fueled, for not immediately understandable reasons, by reading *What Design Can't Do* by Silvio Lorusso. Inside Officina, the reader can find inputs regarding projects, books, exhibitions or talks, and my ideas or conclusions. <br />
+WHERE: Officina will always be consultable from this repository or from the links in my social accounts. <br />
+WHEN: The website was created in January 2026 and it has been updated periodically ever since. <br />
+WHY: There are many reasons for this digital space. Mainly, I want to experiment with coding and AI and, at the same time, share my point of view about relevant topics for designers and creative people. <br />
+PS: I would like to mention that I try to keep all my written words AI-free, since it is exactly the time I put (inefficiently) into writing that represents the purpose of this project. The texts on the website are written in my mother tongue: Italian.
+
+### Project structure
+
+*css/style.css*     - Main stylesheet <br />
+*fonts/*            - Typography used in the website <br />
+*images/*           - Images used in the website <br />
+*banco.html*        - Page with texts and publications <br />
+*index.html*        - Homepage <br />
+*info.html*         - Information about me and the project <br />
+
+## Behind the design
+
+Officina is a personal website made with **Figma** and **ChatGPT**.
 
 ### Figma
 
@@ -20,22 +46,29 @@ I think it is important to share some of the prompts I used to make my process c
 
 At the beginning, I asked some general questions to better understand what was necessary before even starting to ask for the code. <br />
 
-> <br />*I would like to start programming a website together, but first of all I would like to know about platforms or portals where I could publish the site, or the programs I should use to paste the code and review it. I would like to understand what ecosystem I should work within. I have a Windows laptop.* <br /><br />
+> <br /> *I would like to start programming a website together, but first of all I would like to know about platforms or portals where I could publish the site, or the programs I should use to paste the code and review it. I would like to understand what ecosystem I should work within. I have a Windows laptop.* <br /><br />
 
-I gave ChatGPT some references of simple and personal websites and...<br />
+I gave ChatGPT some references of simple and personal websites and we created the GitHub repository and the project files.<br />
 
-> <br />*Vorrei iniziare a programmare un sito insieme, ma prima di tutto vorrei conoscere delle piattaforme o dei portali su cui io potrei pubblicare questo sito, oppure i programmi che dovrei utilizzare e incollare il codice e revisionarlo. Quindi al di là del fatto che devo scrivere codice, vorrei sapere un attimo con che ecosistema devo muovermi. Ho un portatile Windows.*<br /><br />
+> <br /> *I would like to start with a homepage and some separate pages, but I like the approach of the website [...] where the elements are not in a bar at the top but arranged vertically on the left and open windows on the right. However, this might create problems on mobile, so it would be necessary to maintain two versions. To start, I would say to create a homepage, a page with information about me and about the site itself with contacts at the bottom, and a project page titled Banco where I will gather my texts and publications directly on the site. In order: homepage (which will open by clicking on the site title “Officina”), Banco where I will publish the things I write, and then Informazioni; these three elements arranged vertically as in the site [...] rather than only in the top bar.* <br /><br />
 
-Alcuni prompt potrebbero differire dagli originali per sintassi e punteggiatura. La lunghezza e il senso dei testi sono rimasti invariati.
+I later wrote short practical prompts about the workflow between VS Code and GitHub and I started refining typography and spacing in style.css.<br />
+
+> <br /> *The name “box 1” does not satisfy me very much. I would like something analogous related to the working-class and workshop environment but suitable as an analogy for being a container of reflections on topics I care about and books I have read. In addition, I would like you to resize the texts of the sidebar to 16px, set the body text on the various pages to 20px and the titles to 32px. I would like the sidebar buttons to be 60px high and positioned 120px from the left edge, raising their container to 271px from the bottom edge. I would make the background color CCCCCC and introduce the text “My name” at the top left as a kind of signature with size 16 and color 666666, spaced 60px from the top edge and 120px from the left edge. Thank you.* <br /><br />
+
+<br /> *[index.html] This is index.html: From what we discussed before, I notice some errors such as the word “Officina” not being clickable and the non-uniform spacing between the three pages (Officina, Banco and Informazioni).* <br /><br />
+
+Some prompts may differ from the originals in syntax and punctuation. The length and meaning of the texts remain unchanged.
 
 ## Questions & Feedback / Contribution
+
 Open an issue or contact me:
 
 Blah blah blah
 
-Officina è un progetto personale ma sempre aperto a contributi e suggerimenti. In particolare sono sempre alla ricerca di:
+Officina is a personal project but always open to contributions and suggestions. In particular, I am always looking for:
 
-Riferimenti e letture correlate ai temi trattati;
+Related references and readings connected to the topics discussed;
 ...
 
 ## License
