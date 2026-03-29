@@ -4,19 +4,20 @@
 
 ## About the project
 
-Officina is a personal research project, a digital space documenting the analog time I spend reading and learning about design practice, from philosophy and design history to today's challenges. Inside it, the reader can find inputs regarding design initiatives, books, exhibitions or talks, and my ideas and conclusions. I try to keep all my written words AI-free, since it is exactly the time I put (inefficiently) into writing that represents the purpose of this project. The texts on the website are written in my mother tongue: Italian. <br />
-This repository was created in February 2026 and it has been updated periodically ever since. Since I work in a workshop, the name of the repository is inspired by my working space ("Officina" means "workshop" or "garage" in Italian). The idea was fueled by reading Silvio Lorusso: *What Design Can't Do: Essays on Design and Disillusion*, Eindhoven, Set Margins', 2023. <br />
+Officina is a personal research project, a digital space documenting the analog time I spend reading and learning about design practice, from philosophy and design history to today's challenges. Inside it, the reader can find inputs regarding design initiatives, books, exhibitions or talks, and my ideas and conclusions. I try to keep all my written words AI-free, since it is exactly the time I put (inefficiently) into writing that represents the purpose of this project. <br />
+The texts on the website are written in my mother tongue: Italian. <br />
+This repository was created in February 2026 and it has been updated periodically ever since. The name of the repository is inspired by my working space ("Officina" means "workshop" or "garage" in Italian) and the idea was fueled by reading Silvio Lorusso: *What Design Can't Do: Essays on Design and Disillusion*, Eindhoven, Set Margins', 2023. <br />
 
 ### Project structure
 
-*css/style.css*     - Main stylesheet <br />
-*fonts/*            - Typography used in the website <br />
-*images/*           - Images used in the website <br />
-*banco.html*        - Page with texts <br />
-*index.html*        - Homepage <br />
-*info.html*         - Information about me and the project <br />
+***css/style.css***     - Main stylesheet <br />
+***fonts/***            - Typography used in the website <br />
+***images/***           - Images used in the website <br />
+***banco.html***        - Page with texts <br />
+***index.html***        - Homepage <br />
+***info.html***         - Information about me and the project <br />
 
-## Behind the design
+### Design process
 
 Officina is a personal website made with Figma and ChatGPT. The choises regarding usability, layout and color iterations are documented inside the Figma file below.
 
