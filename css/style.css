@@ -142,7 +142,7 @@ h2 {
 
 .nav-link:hover {
   color: var(--color-muted);
-  transform: translateX(2px);
+  /* transform: translateX(2px); */
 }
 
 /* FOOTER */
